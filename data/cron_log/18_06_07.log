@@ -1,0 +1,4 @@
+[ 2018-06-07T17:01:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=ajax&a=affair_stat
+INFO: Cron:ClearPromotion Runat 2018-06-07 17:01:00 Use 0.385000 s 
+Cron:ClearExpiredSetmeal Runat 2018-06-07 17:01:00 Use 0.000000 s 
+

@@ -1,0 +1,12 @@
+[ 2018-06-07T16:58:14+08:00 ] 127.0.0.1 /index.php?m=&c=index&a=ajax_scroll
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')   ORDER BY refreshtime DESC  LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `id`,`fullname`,`sex`,refreshtime  as time,'refresh' as type FROM `qs_resume` WHERE `display` = 1 AND `audit` = 1 AND `id` NOT IN ()   ORDER BY refreshtime DESC  LIMIT 5 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')   ORDER BY refreshtime DESC  LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `id`,`fullname`,`sex`,refreshtime  as time,'refresh' as type FROM `qs_resume` WHERE `display` = 1 AND `audit` = 1 AND `id` NOT IN ()   ORDER BY refreshtime DESC  LIMIT 5 
+
+[ 2018-06-07T17:19:21+08:00 ] 127.0.0.1 /index.php?m=&c=index&a=ajax_scroll
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')   ORDER BY refreshtime DESC  LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `id`,`fullname`,`sex`,refreshtime  as time,'refresh' as type FROM `qs_resume` WHERE `display` = 1 AND `audit` = 1 AND `id` NOT IN ()   ORDER BY refreshtime DESC  LIMIT 5 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')   ORDER BY refreshtime DESC  LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `id`,`fullname`,`sex`,refreshtime  as time,'refresh' as type FROM `qs_resume` WHERE `display` = 1 AND `audit` = 1 AND `id` NOT IN ()   ORDER BY refreshtime DESC  LIMIT 5 
+

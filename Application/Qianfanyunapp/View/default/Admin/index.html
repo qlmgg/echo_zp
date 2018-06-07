@@ -1,0 +1,32 @@
+<include file="Admin@default/public/header" />
+<div class="toptip">
+    <div class="toptit">提示：</div>
+    <p>骑士人才系统集成千帆APP，如果您有运营地方门户或新媒体站点等综合性项目，则可以轻松通过千帆APP接入骑士人才系统，具体请选我司在线客服。
+    </p>
+</div>
+<div class="toptit">千帆配置</div>
+<form action="{:U('admin/index')}" method="post" name="FormData" enctype="multipart/form-data">
+    <div class="form_main width200">
+        <div class="fl">APP名称:</div>
+        <div class="fr">
+            <input name="qianfanyunapp_name" type="text" class="input_text_default middle" maxlength="100" value="{:C('qscms_qianfanyunapp_name')}"/>
+        </div>
+        <div class="fl">主机名:</div>
+        <div class="fr">
+            <input name="qianfanyunapp_hostname" type="text" class="input_text_default middle" maxlength="100" value="{:C('qscms_qianfanyunapp_hostname')}"/>
+        </div>
+        <div class="fl">secret:</div>
+        <div class="fr">
+            <input name="qianfanyunapp_secret" type="text" class="input_text_default middle" maxlength="100" value="{:C('qscms_qianfanyunapp_secret')}"/>
+        </div>
+        <div class="fl"></div>
+        <div class="fr">
+            <input type="submit" class="admin_submit" value="保存"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</form>
+</div>
+<include file="Admin@default/public/footer" />
+</body>
+</html>

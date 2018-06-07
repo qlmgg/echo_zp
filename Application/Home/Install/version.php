@@ -1,0 +1,1 @@
+<?php	return array ( 'module' => 'Home', 'module_name' => '骑士人才系统核心模块', 'appid' => '1770', 'version' => '4.2.122', 'is_create_table' => 0, 'is_insert_data' => 0, 'is_exe' => 0, 'is_delete_data' => 0, 'update_time' => '2018-06-05 16:04:12', 'explain' => '此模块为骑士人才系统基础模块，安装其他周边模块必须在此模块的基础上增加，模块包含了系统的招聘求职等核心功能。', ); ?>

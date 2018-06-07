@@ -1,0 +1,1 @@
+<?php	return array ( 'Home' => '骑士人才系统核心模块', 'Mobile' => '手机触屏端', 'Qianfanyunapp' => '千帆云APP', 'Resumeimport' => '简历导入', 'Weixin' => '微信招聘', ); ?>

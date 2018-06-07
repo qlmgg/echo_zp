@@ -1,0 +1,6 @@
+[ 2018-06-07T16:58:39+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+SQL: SELECT m.id,m.name,m.menu_type,m.module_name,m.controller_name,m.action_name,m.data,m.stat,m.img FROM `qs_admin_auth` INNER JOIN qs_menu m ON m.id=qs_admin_auth.menu_id  WHERE `role_id` = '1' AND m.pid = 0 AND m.display = 1 AND m.module_name IN ('Home','Admin') AND m.mods <> 1   ORDER BY m.ordid,m.id  [RunTime:0.278s] [IP:127.0.0.1] [AddTime:1528361919] [qscms]
+[ 2018-06-07T17:22:00+08:00 ] 127.0.0.1 /index.php?m=mobile&c=jobs&a=index
+SQL: SELECT `spell`,`id`,`parentid`,`categoryname` FROM `qs_category_district`   ORDER BY parentid desc,id asc  [RunTime:0.258s] [IP:127.0.0.1] [AddTime:1528363320] [qscms]
+[ 2018-06-07T17:22:02+08:00 ] 127.0.0.1 /index.php?m=mobile&c=jobs&a=index
+SQL: SELECT `id`,`parentid`,`categoryname`,`spell` FROM `qs_category_district`   ORDER BY category_order desc,id asc  [RunTime:0.219s] [IP:127.0.0.1] [AddTime:1528363322] [qscms]
